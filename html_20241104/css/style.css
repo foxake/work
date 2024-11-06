@@ -61,7 +61,6 @@ img {
 .heading-large {
 	font-size: 3rem;
 	text-align: center;
-	margin-top: 4rem;
 	margin-bottom: 1rem;
 }
 
@@ -119,11 +118,24 @@ img {
 	background-image: url(../images/background_header.jpg);
 }
 
+/* レイアウト */
+.main-content {
+	display: flex;
+	justify-content: space-center;
+	gap: 2rem;
+}
+.column1 {
+	width: 75%;
+}
+.column2 {
+	width: 20%;
+}
+
 /* 紹介文 */
 .about {
-	max-width: 900px;
+	max-width: 1100px;
 	padding: 0 1.5rem;
-	margin: 3rem auto 4rem;
+	margin: 3rem auto 8rem;
 }
 .about p {
 	margin-bottom: 3rem;
@@ -131,12 +143,11 @@ img {
 
 /* Owner */
 .about_owner {
-	max-width: 900px;
+	max-width: 1100px;
 	display: flex;
 	margin: auto;
 	gap: 3rem;
 }
-
 .owner_name p{
 	margin: 0;
 	padding: 0;
@@ -147,6 +158,37 @@ img {
 	width: 600px;
 	border-radius: 10px;
 	border: 2px solid darkseagreen;
+}
+
+/* カレンダー */
+.calendar {
+	margin: 5rem auto 2.5rem;
+	padding-bottom: 2.5rem;
+	text-align: center;
+	border-bottom: 2px dotted #432;
+}
+.calendar iframe {
+	max-width: 90%;
+}
+
+/* Twitter */
+.twitter {
+	margin: auto;
+	width: 90%;
+}
+
+/* バナー */
+.bannar {
+	display: block;
+	margin: 3rem auto 4rem;
+}
+
+
+/*******************************************/
+/*					フッタ					*/
+/*******************************************/
+.information {
+	margin-top: 10rem;
 }
 
 /* Infomation */

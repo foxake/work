@@ -36,4 +36,28 @@
 	.owner_icon img {
 		width: 120px;
 	}
+
+	/***********************************************/
+	/*					ホーム						*/
+	/***********************************************/
+	/* レイアウト */
+	.main-content {
+		display: block;
+	}
+	.column1 {
+		width: 100%;
+	}
+	.column2 {
+		width: 100%;
+	}
+
+	/* カレンダー */
+	.calendar {
+		border-bottom: none;
+	}
+	
+	/* Twitterは非表示 */
+	.twitter {
+		display: none;
+	}
 }
