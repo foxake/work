@@ -47,6 +47,10 @@ img {
 	text-align: center;
 }
 
+.align-justify {
+	text-align: justify;
+}
+
 /* Wrapper */
 .wrapper {
 	margin: auto;
@@ -132,6 +136,7 @@ img {
 	margin: auto;
 	gap: 3rem;
 }
+
 .owner_name p{
 	margin: 0;
 	padding: 0;

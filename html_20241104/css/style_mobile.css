@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*******************************************/
+/*		モバイル用CSS						*/
+/*		：800px未満で適用					*/
+/*******************************************/
+@media (max-width: 800px){
+
+	/***********************************************/
+	/*					共通部分					*/
+	/***********************************************/
+	/* ロゴ画像 */
+	.logo {
+		width: 100px;
+		border-radius: 15px;
+	}
+
+	/* ナビゲーション */
+	.main-nav {
+		display: block;
+		font-size: 2rem;
+	}
+	.main-nav li{
+		border-bottom: 1px dashed #432;
+		margin-bottom: 0.7rem;
+	}
+
+	/* Owner */
+	.about_owner {
+		display: block;
+		padding: 0 1.5rem;
+	}
+	.owner_icon {
+		margin-bottom: 1.5rem;
+	}
+	.owner_icon img {
+		width: 120px;
+	}
+}
