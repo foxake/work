@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.grid {
+	display: grid;
+	gap:2rem 1.5rem;
+	grid-template-columns: repeat(3, 1fr);
+	text-align: center;
+}
+
+.item img{
+	aspect-ratio: 1/1;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 16px;
+	border: 2px solid rgb(221, 221, 221);
+	transition: 0.2s;
+}
+
+.item img:hover {
+	transform: perspective(200px) translateZ(-10px);
+}
+
+.item p{
+	font-size: 1.2rem;
+}
+
+.menu-header {
+	padding-bottom: 2.5rem;
+}

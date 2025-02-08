@@ -57,6 +57,11 @@ img {
 	padding: 1.5rem 1.5rem;
 }
 
+/* メインコンテンツの両端に余白を加える */
+.wrapper-main {
+	max-width: 1120px;
+}
+
 /* 見出し(large) */
 .heading-large {
 	font-size: 3rem;
@@ -132,7 +137,7 @@ img {
 }
 
 /* 紹介文 */
-.about {
+.about, .menu-game {
 	max-width: 1100px;
 	padding: 0 1.5rem;
 	margin: 3rem auto 8rem;
